@@ -1,0 +1,82 @@
+/* Swiper Custom Styles */
+.projects-swiper {
+  padding: 40px 0 60px 0 !important;
+  overflow: visible !important;
+}
+
+.projects-swiper .swiper-slide {
+  width: 350px;
+  height: auto;
+  transition: all 0.3s ease;
+}
+
+.projects-swiper .swiper-slide-active {
+  transform: scale(1.05);
+}
+
+/* Navigation Buttons */
+.projects-swiper .swiper-button-next,
+.projects-swiper .swiper-button-prev {
+  color: #FF1493 !important;
+  background: rgba(20, 20, 20, 0.8);
+  border: 1px solid rgba(255, 20, 147, 0.3);
+  border-radius: 50%;
+  width: 50px !important;
+  height: 50px !important;
+  box-shadow: 0 0 20px rgba(255, 20, 147, 0.3);
+  transition: all 0.3s ease;
+}
+
+.projects-swiper .swiper-button-next:after,
+.projects-swiper .swiper-button-prev:after {
+  font-size: 20px !important;
+  font-weight: 700;
+}
+
+.projects-swiper .swiper-button-next:hover,
+.projects-swiper .swiper-button-prev:hover {
+  background: rgba(255, 20, 147, 0.2);
+  box-shadow: 0 0 30px rgba(255, 20, 147, 0.6);
+  border-color: rgba(255, 20, 147, 0.8);
+}
+
+/* Pagination */
+.projects-swiper .swiper-pagination-bullet {
+  background: rgba(255, 20, 147, 0.5) !important;
+  width: 12px !important;
+  height: 12px !important;
+  box-shadow: 0 0 10px rgba(255, 20, 147, 0.5);
+  transition: all 0.3s ease;
+}
+
+.projects-swiper .swiper-pagination-bullet-active {
+  background: #FF1493 !important;
+  width: 16px !important;
+  height: 16px !important;
+  box-shadow: 0 0 20px rgba(255, 20, 147, 0.8);
+}
+
+/* Coverflow Effect */
+.projects-swiper .swiper-slide-shadow-left,
+.projects-swiper .swiper-slide-shadow-right {
+  background: rgba(255, 20, 147, 0.2) !important;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .projects-swiper .swiper-slide {
+    width: 280px;
+  }
+  
+  .projects-swiper .swiper-button-next,
+  .projects-swiper .swiper-button-prev {
+    width: 40px !important;
+    height: 40px !important;
+  }
+  
+  .projects-swiper .swiper-button-next:after,
+  .projects-swiper .swiper-button-prev:after {
+    font-size: 16px !important;
+  }
+}
+
